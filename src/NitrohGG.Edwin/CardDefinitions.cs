@@ -2,8 +2,10 @@
 
 namespace NitrohGG.Edwin
 {
-    public class HearthstoneAssets
+    public static class CardDefinitions
     {
+
+        //TODO: store this data better
         private const string HearthstoneDataDirectory = "Data";
 
         private static readonly List<string> AllFileNames = new List<string>
@@ -28,6 +30,13 @@ namespace NitrohGG.Edwin
 
         private static readonly List<string> CardDefinitionFileNames = new List<string> { "cardxml0.unity3d" };
 
-        public List<string> GetFileNames() => AllFileNames;
+        public static List<string> GetCardDefinitons()
+        {
+            //TODO: steps for getting card definitons
+            //1) load file and parse basic data
+            //2) load assets (grab index = 0)
+            //3) parse asset for <CardDefs> and grab that data
+            return null;
+        }
     }
 }
