@@ -3,7 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitrohGG.Edwin", "NitrohGG.Edwin\NitrohGG.Edwin.csproj", "{EFC052FC-40EE-41F4-96D0-C272D95D5646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1E676D8-8288-4844-93BC-D7A48C355BF7}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\SharedAssemblyInfo.cs = SolutionItems\SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitrohGG.Edwin.Tests", "NitrohGG.Edwin.Tests\NitrohGG.Edwin.Tests.csproj", "{0C9318C6-B57B-4E33-A260-3981F7AA0D1A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC052FC-40EE-41F4-96D0-C272D95D5646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC052FC-40EE-41F4-96D0-C272D95D5646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC052FC-40EE-41F4-96D0-C272D95D5646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC052FC-40EE-41F4-96D0-C272D95D5646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9318C6-B57B-4E33-A260-3981F7AA0D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9318C6-B57B-4E33-A260-3981F7AA0D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9318C6-B57B-4E33-A260-3981F7AA0D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9318C6-B57B-4E33-A260-3981F7AA0D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
